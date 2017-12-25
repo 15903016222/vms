@@ -1,4 +1,4 @@
-obj-m +=mouse.o
+obj-m +=vms.o
 
 all:
 	make -C /lib/modules/`uname -r`/build SUBDIRS=$(PWD) modules

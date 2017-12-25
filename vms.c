@@ -66,3 +66,4 @@ void vms_cleanup (void) {
 
 module_init (vms_init);
 module_exit (vms_cleanup);
+MODULE_LICENSE ("GPL");
